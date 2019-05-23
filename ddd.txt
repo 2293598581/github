@@ -1,0 +1,4 @@
+ALTER TABLE `ims_channel`
+DROP INDEX `code` ,
+ADD UNIQUE INDEX `code` (`code`) USING BTREE ;
+
